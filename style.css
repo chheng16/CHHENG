@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+#header {
+    width: 900px;
+    height: 100px;
+    background: red;
+    margin: 0 auto;
+}
+#logo {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+#nav-about {
+    width: 75%;
+    height: 40%;
+    background: rgb(121,11,4);
+    float: right;
+}
+#nav {
+    width: 75%;
+    height: 60%;
+    background: #B01202;
+    float: right;
+}
+#nav-about > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    font-size: 0;
+}
+#nav-about > ul > li {
+    display:inline-block;
+    font-size: initial;
+}
+#nav-about > ul > li > a {
+    text-decoration: none;
+    padding: 11px 10px;
+    display: block;
+    color: white;
+}
+#nav-about > ul > li > a:hover {
+    background-color: rgb(207, 92, 92) ;
+}
+/*-------------------------------------------------------------*/
+#nav > ul {
+    list-style-type: none;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+#nav > ul > li {
+    display: inline-block;
+}
+#nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 19px 10px;
+    font-size: 19px;
+    margin-left: 0;
+}
+#nav > ul > li > a:hover {
+    background-color: rgb(69, 211, 164);
+}
